@@ -34,6 +34,10 @@ The game ends once all cards have been correctly matched.
 4. Change the current working directory to the location where you want the cloned directory to be made.
 5. Type `git clone`, and paste the URL you copied, and then press enter.
 
+**OR**
+
+1. Click on this [link](https://alfred-kctang.github.io/Udacity-FWDNanodegree-Memory-Game-Project/) to open live version of the page.
+
 ## Contributing
 
 This repository is the author's code for a project of Udacity Front-end Web Developer Nanodegree.
