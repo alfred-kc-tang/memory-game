@@ -36,7 +36,7 @@ The game ends once all cards have been correctly matched.
 
 **OR**
 
-1. Click on this [link](https://alfred-kctang.github.io/Udacity-FWDNanodegree-Memory-Game-Project/) to open live version of the page.
+1. Click on this [link](https://alfred-kctang.github.io/Udacity-FWDNanodegree-Memory-Game-Project/) to open the live version of the page.
 
 ## Contributing
 
