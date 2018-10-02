@@ -2,19 +2,40 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
+* [How the Game Works](#howTheGameWorks)
+* [Game Rules](#gameRules)
+* [Installation](#installation)
 * [Contributing](#contributing)
 
-## Instructions
+## How the Game Works
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+The game board consists of sixteen "cards" arranged in a grid. The deck is made up of eight different pairs of cards, each with different symbols on one side. The cards are arranged randomly on the grid with the symbol face down. The gameplay rules are very simple: flip over two hidden cards at a time to locate the ones that match!
 
-To get started, open `js/app.js` and start building out the app's functionality
+Each turn:
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+The player flips one card over to reveal its underlying symbol.
+The player then turns over a second card, trying to find the corresponding card with the same symbol.
+If the cards match, both cards stay flipped over.
+If the cards do not match, both cards are flipped face down.
+The game ends once all cards have been correctly matched.
+
+## Game Rules
+
+1. There is no loser in the game unless the player give up on flipping the cards. You will win when you match all the pairs of cards.
+2. Your flipping will be counted towards the number of moves.
+3. The number of moves will determine how many scores and stars you will get at the end: your would obtain 20 scores and 1 star if your trials exceeds 128; 40 scores and 2 stars if your trials exceeds 96; 60 scores and 3 stars if your trials exceeds 64; 80 scores and 4 stars if your trials exceeds 32. You would obtain 100 scores and 5 stars if you match all the pairs of cards within 32 trials.
+4. You can restart the game by clicking the refresh button at the top right corner.
+
+## Installation
+
+1. Under the repository name, click **Clone or download**.
+2. In the Clone with HTTPs section, copy the clone URL for the repository
+3. Open Terminal.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type `git clone`, and paste the URL you copied, and then press enter.
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+This repository is the author's code for a project of Udacity Front-end Web Developer Nanodegree.
 
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
