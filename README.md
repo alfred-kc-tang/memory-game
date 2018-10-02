@@ -21,7 +21,7 @@ The game ends once all cards have been correctly matched.
 
 ## Game Rules
 
-1. There is no loser in the game unless the player give up on flipping the cards. You will win when you match all the pairs of cards.
+1. There is no loser in the game unless the player gives up on flipping the cards. You will win when you match all the pairs of cards.
 2. Your flipping will be counted towards the number of moves.
 3. The number of moves will determine how many scores and stars you will get at the end: your would obtain 20 scores and 1 star if your trials exceeds 128; 40 scores and 2 stars if your trials exceeds 96; 60 scores and 3 stars if your trials exceeds 64; 80 scores and 4 stars if your trials exceeds 32. You would obtain 100 scores and 5 stars if you match all the pairs of cards within 32 trials.
 4. You can restart the game by clicking the refresh button at the top right corner.
