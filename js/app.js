@@ -61,6 +61,7 @@ let clickDisabled = false;
  * Create the following variables for setting up the counters of move, score and time
  */
 let move = 0;
+let timer;
 let score = 100;
 let seconds = 0;
 const stars = document.querySelector('.stars');
@@ -101,7 +102,7 @@ cards.forEach(function(card) {
 			moveCounter = document.querySelector('.moves');
 			moveCounter.textContent = move;
 			if (move == 1) {
-				setInterval(function() {
+				timer = setInterval(function() {
 					seconds ++;
 					document.getElementById("seconds").innerText = seconds % 60;
 					document.getElementById("minutes").innerText = parseInt(seconds / 60);
@@ -156,6 +157,7 @@ cards.forEach(function(card) {
 		 */
 
 		if (document.querySelectorAll('.match').length == 16) {
+			clearInterval(timer);
 			setTimeout(function() {
 				if (window.confirm('You won the game!\nYou used ' + document.getElementById('minutes').innerText + ' minute(s) ' + document.getElementById('seconds').innerText + ' second(s).\nYour score is ' + score + ' and your star rating is ' + document.querySelector('.stars').childElementCount + '. Congratulations!\nDo you want to play again?')) {
 					location.reload();
