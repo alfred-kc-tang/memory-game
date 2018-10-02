@@ -165,7 +165,7 @@ cards.forEach(function(card) {
 			}, 1000);
 		};
 		/*
-		 * Once all cards are matched, i.e. the number of cards that contain the class of 'match' is equal to 16, a pop-up window will be displayed after a second, and it tells players that they've won the game and how many scores and stars they get, and it invites players to play again if they click on 'OK' button on the pop-up window
+		 * Once all cards are matched, i.e. the number of cards that contain the class of 'match' is equal to 16, the timer will stop and a pop-up window will be displayed after a second, and it tells players that they've won the game and how many scores and stars they get, and it invites players to play again if they click on 'OK' button on the pop-up window
 		 * Once the 'OK' button is clicked, the game page will be reloaded, and scores, stars, moves and time will be recounted
 		 */
 	});
