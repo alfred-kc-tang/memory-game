@@ -40,6 +40,8 @@ The game ends once all cards have been correctly matched.
 
 ## Contributing
 
-This repository is the author's code for a project of Udacity Front-end Web Developer Nanodegree.
+This repository is the author's code for a project of Udacity's Front-End Web Developer Nanodegree.
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+## License
+
+The contents of this repository are covered under the [MIT License](https://choosealicense.com/licenses/mit/).
