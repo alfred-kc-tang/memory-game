@@ -40,8 +40,9 @@ The game ends once all cards have been correctly matched.
 
 ## Contributing
 
-This repository is the author's code for a project of Udacity's Front-End Web Developer Nanodegree.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
 
 ## License
 
-The contents of this repository are covered under the [MIT License](https://choosealicense.com/licenses/mit/).
+This repository is covered under the [MIT License](https://choosealicense.com/licenses/mit/).
