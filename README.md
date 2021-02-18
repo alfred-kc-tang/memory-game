@@ -1,4 +1,4 @@
-# [Memory Game Project](https://alfred-kctang.github.io/Memory-Game-Project/)
+# [Memory Game Project](https://alfred-kctang.github.io/memory-game/)
 
 ## Table of Contents
 
